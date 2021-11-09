@@ -1,0 +1,41 @@
+html
+{     
+    height: 15em;
+    width: 20em;
+    margin: 0 0 0 0;
+}
+
+#main 
+{
+    height:100%;
+    width:100%;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.header
+{
+    background-color: blue;
+    width: 100%;
+    margin-bottom: 10px;    
+}
+.header h2
+{
+    color: antiquewhite;
+}
+
+.form-container form
+{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    column-gap: 20px;
+    row-gap: 3px;
+}
+
+.form-container form input
+{
+    padding: 3px 0 3px 5px;       
+}

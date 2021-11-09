@@ -5,7 +5,7 @@
     "description": "Data Scrapper",
     
     "browser_action": {
-        "popup": "popup.html",
-        "default_popup": "popup.html"
+        "popup": "./src/Account/Login.html",
+        "default_popup": "./src/Account/Login.html"
     }
 }
